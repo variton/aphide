@@ -1,0 +1,32 @@
+[project]
+name = "xphide"
+version = "0.1.0"
+description = "Features of the cryptography package"
+requires-python = ">=3.14"
+
+# dépendances runtime du package
+dependencies = [
+    "bcrypt",
+    "jwtoken",
+    "cryptography",
+]
+
+[dependency-groups]
+dev = [
+    "black",
+    "pycodestyle",
+    "pydocstyle",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-html",
+    "ruff",
+    "bandit",
+    "sphinx",
+    "furo",
+    "coverage",
+    "ipdb",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

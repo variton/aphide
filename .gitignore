@@ -1,0 +1,19 @@
+#vim extensions
+*.swp
+*.swo
+*.swn
+
+#python extensions
+*.pyc
+
+#folders to ignore
+__pycache__/
+htmlcov/
+docs/_build/
+
+#files to ignore
+.coverage
+coverage.json
+bandit.json
+bandit-report.html
+report.html
